@@ -3,7 +3,7 @@ package br.com.agencia.aeroportos;
 public class Dubai implements Aeroporto {
     @Override
     public String obterNomeAeroporto() {
-        return "Dubai International Airport (DXB)";
+        return "Aeroporto Internacional de Dubai (DXB)";
     }
 
     @Override
