@@ -1,16 +1,16 @@
 package br.com.agencia.aeroportos;
 
-public class Lukla implements Aeroporto {
+public class Paris implements Aeroporto {
 
     @Override
     public String obterNomeAeroporto() {
-        return "Aeroporto Tenzing-Hillary (LUA)";
+        return "Aeroporto Paris-Charles de Gaulle (CDG)";
     }
 
     @Override
     public double calcularPrecoVoo(int quantidadePassageiros) {
-        double taxaEmbarqueEUA = 250.00;
-        double precoPassagemBase = 10500.00;
+        double taxaEmbarqueEUA = 180.00;
+        double precoPassagemBase = 4500.00;
 
         // Custo total baseado nos passageiros
         return (precoPassagemBase + taxaEmbarqueEUA) * quantidadePassageiros;
