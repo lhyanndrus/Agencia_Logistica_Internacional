@@ -16,6 +16,6 @@ public class Barcelona implements Aeroporto{
 
     @Override
     public int obterTempoVooMinutos() {
-        return 0;
+        return 1010;
     }
 }
