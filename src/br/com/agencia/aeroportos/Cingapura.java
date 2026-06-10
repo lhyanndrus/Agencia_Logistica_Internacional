@@ -1,6 +1,6 @@
 package br.com.agencia.aeroportos;
 
-public class Singapura implements Aeroporto{
+public class Cingapura implements Aeroporto{
     @Override
     public String obterNomeAeroporto() {
         return "Aeroporto de Changi (SIN)";
