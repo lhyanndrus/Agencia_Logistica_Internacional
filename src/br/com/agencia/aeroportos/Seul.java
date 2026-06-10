@@ -8,7 +8,9 @@ public class Seul implements Aeroporto{
 
     @Override
     public double calcularPrecoVoo(int quantidadePassageiros) {
-        return 7.767 * quantidadePassageiros;
+        double taxaEmbarqueS = 65;
+        double precoPassagemBase = 7676.67;
+        return (precoPassagemBase + taxaEmbarqueS) * quantidadePassageiros;
     }
 
     @Override
