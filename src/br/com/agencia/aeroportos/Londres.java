@@ -4,7 +4,7 @@ public class Londres implements Aeroporto {
 
     @Override
     public String obterNomeAeroporto() {
-        return "Aeroporto Tenzing-Hillary (LUA)";
+        return "Aeroporto Londres-Heathrow (LHR)";
     }
 
     @Override
@@ -19,7 +19,7 @@ public class Londres implements Aeroporto {
     @Override
     public int obterTempoVooMinutos() {
         // Um voo de SP para LONDRES dura cerca de 11 horas e 15 minutos (675 minutos)
-        return 1500;
+        return 675;
         /*
         * 11 * 60 = 660 + 15 = 675
         * */
