@@ -1,16 +1,16 @@
 package br.com.agencia.aeroportos;
 
-public class Lukla implements Aeroporto {
+public class Santiago implements Aeroporto {
 
     @Override
     public String obterNomeAeroporto() {
-        return "Aeroporto Tenzing-Hillary (LUA)";
+        return "Aeroporto Internacional Arturo Merino Benítez (SCL)";
     }
 
     @Override
     public double calcularPrecoVoo(int quantidadePassageiros) {
-        double taxaEmbarqueEUA = 250.00;
-        double precoPassagemBase = 10500.00;
+        double taxaEmbarqueEUA = 192;
+        double precoPassagemBase = 1200;
 
         // Custo total baseado nos passageiros
         return (precoPassagemBase + taxaEmbarqueEUA) * quantidadePassageiros;
@@ -18,7 +18,7 @@ public class Lukla implements Aeroporto {
 
     @Override
     public int obterTempoVooMinutos() {
-        // Um voo de SP para LUKLA dura cerca de 25 horas e 0 minutos (1500 minutos)
-        return 1500;
+        // Um voo de SP para SANTIAGO dura cerca de 4 horas e 20 minutos (260 minutos)
+        return 260;
     }
 }
